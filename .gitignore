@@ -1,0 +1,17 @@
+# Don't track content of these folders
+node_modules/
+
+# references #
+######################
+*.webloc
+*.png
+*.zip
+*.docx
+*.ipynb_checkpoints
+
+# OS generated files #
+######################
+.DS_Store
+
+#Other Files#
+######################
