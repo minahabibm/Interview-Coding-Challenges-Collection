@@ -1,0 +1,77 @@
+.centeredDiv {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 75%;
+}
+
+.myList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+select {
+    width: 150px;
+    margin: 10px;
+    font-size: 1.5em;
+}
+select:focus {
+    min-width: 150px;
+    width: auto;
+}
+
+.child {
+    position: absolute;
+    top: 0;
+}
+  
+.child-1 {
+    left: 0;
+    min-width: 100%;
+}
+  
+.child-2 {
+    left: 5.5%;
+    border: 1px solid rgb(219,219,219);
+    min-width: 90%;
+    min-height: 36em;
+}
+  
+.parent {
+    position: relative;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 2rem;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.name {
+    float:left; 
+    width: 5%;
+    margin-top: 0.5%;
+    margin-right: 0.5%;
+    color: rgb(93,93,93);
+}
+
+.bars{
+    float:left; 
+    background-color: rgb(59,150,248);
+    
+}
+
+.data {
+    float:left; 
+    width:7%;
+    margin-top: 0.5%;
+    margin-left: 0.5%;
+    color: rgb(59,150,248);
+}

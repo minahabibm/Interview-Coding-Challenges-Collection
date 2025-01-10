@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simple Horizontal Bar Chart</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/'-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+  </head>
+
+  <body onload= "favDisplay()">
+    <div class="centeredDiv">
+        <div class="myList">
+            <select id = "myList"  onchange = "favDisplay()" >
+                <option value="Age">Age</option>
+                <option value="Salary">Salary</option>
+            </select>
+        </div>
+        <!-- <p><input type = "text" id = "favourite" size = "20" ></p> -->
+
+        <div class="parent">
+            <div id="charts" class="child child-1"></div>
+            <div class="child child-2"></div>
+        </div>
+
+    <div>
+    <script src="script.js"></script>
+  </body>
+</html>

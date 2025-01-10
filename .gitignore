@@ -7,6 +7,7 @@ node_modules/
 *.png
 *.zip
 *.docx
+*.pdf
 *.ipynb_checkpoints
 
 # OS generated files #

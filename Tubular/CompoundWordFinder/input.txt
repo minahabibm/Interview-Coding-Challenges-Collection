@@ -1,0 +1,12 @@
+man
+woman
+manhandle
+handle
+race
+drag
+car
+racecar
+computer
+bag
+dragon
+manbag
